@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Die Dreizehn Gezeichneten</title>
+        <meta name="author" content="Michael Simons" />
+    </head>
+    <body>
+		<h1>Frage {{ questionNumber }}: {{ question[0] }}</h1>
+		<form method="post" action="{{ url_for('answer') }}">
+			{% for possibleAnswer in question[1] %}
+				<input id="answer{{ loop.index }}" type="radio" name="answer" value="{{ loop.index }}">
+				<label for="answer{{ loop.index }}">
+					&#160;{{possibleAnswer}}
+				</label><br />
+			{% endfor %}
+			<input type="submit" value="Weiter" />
+		</form>
+		<hr />
+		<form method="post" action="{{ url_for('reset') }}">
+			<input type="submit" value="Von vorne anfangen" />
+		</form>
+    </body>
+</html>
