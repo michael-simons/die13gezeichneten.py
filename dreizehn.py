@@ -149,107 +149,107 @@ def a11(antwort, s):
 questions = [
     [
         u"Womit arbeitest du lieber?", [
-            u"Den Händen [1]",
-            u"Dem Kopf [2]",
-            u"Am liebsten gar nicht [3]"
+            u"Den Händen",
+            u"Dem Kopf",
+            u"Am liebsten gar nicht"
         ],
         a1
     ],
     [
         u"Was ist das Highlight deines Tages?", [
-            u"Ein gutes Buch lesen [1]",
-            u"Etwas Gutes essen [2]",
-            u"Mit Freunden einen trinken [3]",
-            u"Sport [4]",
-            u"Wenn ich dir das verraten würde, müsste ich dich töten. [5]"
+            u"Ein gutes Buch lesen",
+            u"Etwas Gutes essen",
+            u"Mit Freunden einen trinken",
+            u"Sport",
+            u"Wenn ich dir das verraten würde, müsste ich dich töten."
         ],
         a2
     ],
     [
         u"Deine Freunde schenken dir einen Workshop zum Geburtstag. Über welchen freust du dich?", [
-            u"Schmieden! [1]",
-            u"Töpfern! [2]",
-            u"Schmuckbasteln! [3]",
-            u"Bierbrauen! [4]",
-            u"Nähen! [5]",
-            u"Ein Fechtseminar [6]"
+            u"Schmieden!",
+            u"Töpfern!",
+            u"Schmuckbasteln!",
+            u"Bierbrauen!",
+            u"Nähen!",
+            u"Ein Fechtseminar"
         ],
         a3
     ],
     [
         u"Wofür würdest du in deinem Haushalt wirklich Geld in die Hand nehmen?", [
-            u"Ein tolles japanisches Schneidemesser [1]",
-            u"Das passende Glas für alle Gelegenheiten [2]",
-            u"Neue Möbel [3]",
-            u"Haushalskram? Pah! Ich brauche Klamotten! [4]",
-            u"Ich brauche vor allen Dingen Bücher! [5]",
-            u"Einen guten Whiskey [6]",
-            u"Ich bin ein Bastler, ich baue immer an meinem Zuhause herum [7]"
+            u"Ein tolles japanisches Schneidemesser",
+            u"Das passende Glas für alle Gelegenheiten",
+            u"Neue Möbel",
+            u"Haushalskram? Pah! Ich brauche Klamotten!",
+            u"Ich brauche vor allen Dingen Bücher!",
+            u"Einen guten Whiskey",
+            u"Ich bin ein Bastler, ich baue immer an meinem Zuhause herum"
         ] ,
         a4
     ],
     [
         u"Du machst Urlaub. Wo übernachtest du?", [
-            u"In einem Zelt [1]",
-            u"In einem Hotel [2]",
-            u"In einer Blockhütte [3]",
-            u"Ich nehm’s wie’s kommt, notfalls penn ich im Auto. [4]"
+            u"In einem Zelt",
+            u"In einem Hotel",
+            u"In einer Blockhütte",
+            u"Ich nehm’s wie’s kommt, notfalls penn ich im Auto."
         ],
         a5
     ],
     [
         u"Du arbeitest in einem Labor und hast die Wahl:", [
-            u"Ich suche nach dem Unsterblichkeitselixier. [1]",
-            u"Ich forsche nach Nährlösung, die den Hunger besiegt. [2]",
-            u"Ich möchte einen Trank, der unsichtbar macht. [3]",
-            u"Ich braue einen Liebeszauber. [4]",
-            u"Ich möchte Blei zu Gold machen. [5]"
+            u"Ich suche nach dem Unsterblichkeitselixier.",
+            u"Ich forsche nach Nährlösung, die den Hunger besiegt.",
+            u"Ich möchte einen Trank, der unsichtbar macht.",
+            u"Ich braue einen Liebeszauber.",
+            u"Ich möchte Blei zu Gold machen."
         ],
         a6
     ],
     [
         u"Was ist mächtiger?", [
-            u"Die Feder [1]",
-            u"Das Schwert [2]",
-            u"Das kannst du beides vergessen, im Notfall hilft nur Verschlagenheit. [3]"
+            u"Die Feder",
+            u"Das Schwert",
+            u"Das kannst du beides vergessen, im Notfall hilft nur Verschlagenheit."
         ],
         a7
     ],
     [
         u"Einbrecher entwenden, worin dein Herzblut steckt. Was ist es?", [
-            u"Sie haben meinen Nutzgarten verwüstet! [1]",
-            u"Sie haben mein Porzellan zertrümmert! [2]",
-            u"Sie haben meinen Schmuck gestohlen! [3]",
-            u"Sie haben meinen Laptop geklaut! [4]",
-            u"Sie haben meine Fensterscheiben eingeschlagen! [5]"
+            u"Sie haben meinen Nutzgarten verwüstet!",
+            u"Sie haben mein Porzellan zertrümmert!",
+            u"Sie haben meinen Schmuck gestohlen!",
+            u"Sie haben meinen Laptop geklaut!",
+            u"Sie haben meine Fensterscheiben eingeschlagen!"
         ],
         a8
     ],
     [
         u"Die Weihnachtsbäume sind aus. Du hast deiner Familie versprochen, dass du einen mitbringst. Was tust du?", [
-            u"Ich nehme einen künstlichen und behänge ihn mit so viel Kugeln und Bling-Bling, dass sie es nicht merken. [1]",
-            u"Ich war immer schon gut mit der Laubsäge – das sieht nachher sicher nett aus. [2]",
-            u"Das gute Essen wird meine Familie drüber hinwegtrösten. Ich kaufe extra opulent ein. [3]",
-            u"Stattdessen kaufe ich einfach zu Silvester mehr Feuerwerk. [4]",
-            u"Ich stelle einfach einen Haufen Kerzenleuchter auf. [5]"
+            u"Ich nehme einen künstlichen und behänge ihn mit so viel Kugeln und Bling-Bling, dass sie es nicht merken.",
+            u"Ich war immer schon gut mit der Laubsäge – das sieht nachher sicher nett aus.",
+            u"Das gute Essen wird meine Familie drüber hinwegtrösten. Ich kaufe extra opulent ein.",
+            u"Stattdessen kaufe ich einfach zu Silvester mehr Feuerwerk.",
+            u"Ich stelle einfach einen Haufen Kerzenleuchter auf."
         ],
         a9
     ],
     [
         u"Alltagskram, bei dem es deiner Meinung nach Verbesserungspotenzial gibt:", [
-            u"Geschirr, das nicht zerbricht [1]",
-            u"Kleidung, die nicht zerreißt [2]",
-            u"Straßen, die keine Schlaglöcher kriegen [3]",
-            u"Zahnpasta, von der ich WIRKLICH keine Parodontose kriege [4]"
+            u"Geschirr, das nicht zerbricht",
+            u"Kleidung, die nicht zerreißt",
+            u"Straßen, die keine Schlaglöcher kriegen",
+            u"Zahnpasta, von der ich WIRKLICH keine Parodontose kriege"
         ],
         a10
     ],
     [
         u"Wie willst du beerdigt werden?", [
-            u"Ich will den Klassiker: Gebt mir einen Sarg! [1]",
-            u"Ich möchte zu Erde werden – äschert mich ein und verstreut mich. [2]",
-            u"Wie Schneewittchen und Lenin: in einem Glassarg! [3]",
-            u"Ich hätte gern eine Pyramide. [4]"
+            u"Ich will den Klassiker: Gebt mir einen Sarg!",
+            u"Ich möchte zu Erde werden – äschert mich ein und verstreut mich.",
+            u"Wie Schneewittchen und Lenin: in einem Glassarg!",
+            u"Ich hätte gern eine Pyramide."
         ],
         a11
     ]
